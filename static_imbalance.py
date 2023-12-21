@@ -36,8 +36,6 @@ joints = solver.add_joints_task()
 
 t = 0.0
 dt = 0.001
-lower = 0.0
-upper = 0.0
 solver.dt = dt
 
 viz.display(robot.state.q)
